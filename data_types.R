@@ -45,3 +45,7 @@ class(my_vector)
 my_list <- list(1, FALSE, "Hello")
 my_list
 
+numbers_with_na <- c(1, NA, 2, 3)
+sum(numbers_with_na, na.rm=TRUE)
+NA == NA
+NULL == NULL
